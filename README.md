@@ -11,8 +11,8 @@ Via Google een paar projectjes opgezocht en dit verder beginnen omzetten in de p
 De hardware voor fase 1 vonden we op de thepihut.com
 The software komt voornamelijk van Github.com: https://github.com/laurentalacoque/TouchSelfie-extended
 ## Hardware
-Raspberry-pi 4
-Raspberry-pi Camera Module 2
+Raspberry-pi 4 /
+Raspberry-pi Camera Module 2 /
 Waveshare 7inch HDMI LCD
 ## Software
 https://github.com/laurentalacoque/TouchSelfie-extended
