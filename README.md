@@ -15,5 +15,6 @@ Via Google een paar projectjes opgezocht en dit verder beginnen omzetten in de p
 - Raspberry-pi Camera Module 2
 - Waveshare 7inch HDMI LCD
 ## Software
-https://github.com/laurentalacoque/TouchSelfie-extended
+- https://github.com/sabat54i/photoboothdiy
+- https://github.com/laurentalacoque/TouchSelfie-extended
 ## Eigen cripts en programma's
