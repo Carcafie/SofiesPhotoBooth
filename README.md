@@ -1,7 +1,7 @@
 # SofiesPhotoBooth
 ## Beschrijving
 Een Photo Booth, gekend vanop vele feestjes. Een foto is altijd een leuk aandenken.
-- Fase 1: hier willen ik ervoor zorgen dat er een of meerdere foto's genomen worden die we dan kunnen doormailen naar het e-mailadres van de persoon in kwestie. 
+- Fase 1: hier willen ik ervoor zorgen dat er een of meerdere foto's genomen worden die we dan kunnen doormailen naar het e-mailadres van de persoon in kwestie. Variant hierop is in plaats va een mail te versturen kunnen de personen een QR-code scannen met hun smartphone enzo de foto's opslaan. 
 - Fase 2: lukt fase 1 zeer vlot zou ik graag een button en een printer toevoegen, zo word de foto onmiddellijk geprint.
 - Fase 3: eenmaal alles deftig werkt voorzien we de Photo Booth van een mooi uiterlijk
 ## Bronnen
@@ -17,4 +17,5 @@ Via Google een paar projectjes opgezocht en dit verder beginnen omzetten in de p
 ## Software
 - https://github.com/sabat54i/photoboothdiy
 - https://github.com/laurentalacoque/TouchSelfie-extended
+- https://www.instructables.com/Wifi-Photobooth-With-a-Raspberry-Pi/
 ## Eigen cripts en programma's
