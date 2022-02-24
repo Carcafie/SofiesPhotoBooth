@@ -19,3 +19,6 @@ Via Google een paar projectjes opgezocht en dit verder beginnen omzetten in de p
 - https://github.com/laurentalacoque/TouchSelfie-extended
 - https://www.instructables.com/Wifi-Photobooth-With-a-Raspberry-Pi/
 ## Eigen cripts en programma's
+- https://www.instructables.com/Wifi-Photobooth-With-a-Raspberry-Pi/
+- index.php gekopieerd van /var/www naar /var/www/html. Hierdoor verdween de foutmelding kan de server niet vinden. Code 401 error werd de volgende foutcodebij het scannen van de QR-code. Dit werd verholpen door de pics map te kopieren van /home/pi/pb/Pictures naar /var/www.
+- voor het kopieren van de map en het bestand werd commando "sudo ln -s" gebruikt (sudo ln -s /home/pi/pb/Pictures pics) zorg er wel voor dit je bij dit commando al in de map staat waar de kopie naar toe moet.
