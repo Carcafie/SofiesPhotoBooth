@@ -22,3 +22,5 @@ Via Google een paar projectjes opgezocht en dit verder beginnen omzetten in de p
 - https://www.instructables.com/Wifi-Photobooth-With-a-Raspberry-Pi/
 - index.php gekopieerd van /var/www naar /var/www/html. Hierdoor verdween de foutmelding kan de server niet vinden. Code 401 error werd de volgende foutcodebij het scannen van de QR-code. Dit werd verholpen door de pics map te kopieren van /home/pi/pb/Pictures naar /var/www.
 - voor het kopieren van de map en het bestand werd commando "sudo ln -s" gebruikt (sudo ln -s /home/pi/pb/Pictures pics) zorg er wel voor dit je bij dit commando al in de map staat waar de kopie naar toe moet.
+- In het Combine.sh script hebben we enkele aanpassingen gedaan, hier werd bij elk commando de "gm" verwijderd. GM was niet geïnstaleerd en zorgde dan ook voor fouten in het programma.
+- Photobooth werkt nu zoals het hoort. Enkel nog een RTC installeren en een Button.
