@@ -1,9 +1,11 @@
 # SofiesPhotoBooth
 ## Beschrijving
 Een Photo Booth, gekend vanop vele feestjes. Een foto is altijd een leuk aandenken.
-- Fase 1: hier willen ik ervoor zorgen dat er een of meerdere foto's genomen worden die we dan kunnen doormailen naar het e-mailadres van de persoon in kwestie. Variant hierop is in plaats va een mail te versturen kunnen de personen een QR-code scannen met hun smartphone enzo de foto's opslaan. 
-- Fase 2: lukt fase 1 zeer vlot zou ik graag een button en een printer toevoegen, zo word de foto onmiddellijk geprint.
-- Fase 3: eenmaal alles deftig werkt voorzien we de Photo Booth van een mooi uiterlijk
+- Fase 1: Software installeren zodat de mensen de foto's kunnen opslaan op hun gsm of tablet via QR-code
+- Fase 2: Accespoint instellen: men moet eerst verbinding maken met het accespoint voor ze de foto's kunnen opslaan op hun device.
+- Fase 3: als alles netjes werkt kunnen we de PhotoBooth netjes afwerken om makkelijk mee te kunnen nemen
+- Fase 4: lichten toevoegen zodat de foto's helderder worden.
+- Fase 5: optioneel kunnen we nog een printer tovoegen zodat de foto's onmiddellijk geprint kunnen worden
 ## Bronnen
 Tijdens het zoeken naar de raspberry-pi camera kwam ik plots een Photo Booth tegen.
 Op ons eigen huwelijk hadden wij dit ook en was dit een groot succes.
