@@ -30,4 +30,4 @@ Via Google een paar projectjes opgezocht en dit verder beginnen omzetten in de p
 - In het Combine.sh script hebben we enkele aanpassingen gedaan, hier werd bij elk commando de "gm" verwijderd. GM was niet geïnstaleerd en zorgde dan ook voor fouten in het programma.
 - Photobooth werkt nu zoals het hoort. Enkel nog een RTC-module installeren en een Button.
 - RTC is geinstalleerd en werkt perfect, zonder internet hebben we nu ook de correcte datum en tijd.
-- Connectiviteit van het accespoint is momenteel niet optimaal. We zoeken naar nieuwe mogelijk heden met nmcli.
+- Connectiviteit van het accespoint is momenteel niet optimaal. We zoeken naar nieuwe mogelijkheden met nmcli.
