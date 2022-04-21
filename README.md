@@ -3,9 +3,9 @@
 Een Photo Booth, gekend vanop vele feestjes. Een foto is altijd een leuk aandenken.
 - Fase 1: Software installeren zodat de mensen de foto's kunnen opslaan op hun gsm of tablet via QR-code
 - Fase 2: Accespoint instellen: men moet eerst verbinding maken met het accespoint voor ze de foto's kunnen opslaan op hun device.
-- Fase 3: als alles netjes werkt kunnen we de PhotoBooth netjes afwerken om makkelijk mee te kunnen nemen
-- Fase 4: lichten toevoegen zodat de foto's helderder worden.
-- Fase 5: optioneel kunnen we nog een printer tovoegen zodat de foto's onmiddellijk geprint kunnen worden
+- Fase 3: Als alles netjes werkt kunnen we het uiterlijkvan de PhotoBooth afwerken om makkelijk mee te kunnen nemen
+- Fase 4: Lichten toevoegen zodat de foto's helderder worden.
+- Fase 5: Optioneel kunnen we nog een printer tovoegen zodat de foto's onmiddellijk geprint kunnen worden.
 ## Bronnen
 Tijdens het zoeken naar de raspberry-pi camera kwam ik plots een Photo Booth tegen.
 Op ons eigen huwelijk hadden wij dit ook en was dit een groot succes.
