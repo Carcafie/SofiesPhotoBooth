@@ -25,9 +25,10 @@ Via Google een paar projectjes opgezocht en dit verder beginnen omzetten in de p
 
 ## Eigen cripts en programma's
 - https://www.instructables.com/Wifi-Photobooth-With-a-Raspberry-Pi/
-- index.php gekopieerd van /var/www naar /var/www/html. Hierdoor verdween de foutmelding kan de server niet vinden. Code 401 error werd de volgende foutcodebij het scannen van de QR-code. Dit werd verholpen door de pics map te kopieren van /home/pi/pb/Pictures naar /var/www.
-- voor het kopieren van de map en het bestand werd commando "sudo ln -s" gebruikt (sudo ln -s /home/pi/pb/Pictures pics) zorg er wel voor dit je bij dit commando al in de map staat waar de kopie naar toe moet.
-- In het Combine.sh script hebben we enkele aanpassingen gedaan, hier werd bij elk commando de "gm" verwijderd. GM was niet geïnstaleerd en zorgde dan ook voor fouten in het programma.
+- sudo apt-get install imagemagick  dit programma is nodig om de foto's te combineren. In de instructie staat er een commando die niet werkt vandaar deze.
+- sudo pip install Pillow==2.1.0  aangezien deze scripts al enkele jaren oud zijn is een oudere versie Pillow nodig om dit te doen werken. 
+- index.php gekopieerd van var/www naar /var/www/html. Hierdoor verdween de foutmelding kan de server niet vinden. Code 401 error werd de volgende foutcodebij het scannen van de QR-code. Dit werd verholpen door de pics map te kopieren van /home/pi/pb/Pictures naar /var/www.- voor het kopieren van de map en het bestand werd commando "sudo ln -s" gebruikt (sudo ln -s /home/pi/pb/Pictures pics) zorg er wel voor dit je bij dit commando al in de map staat waar de kopie naar toe moet.
+- In het Combine.sh script hebben we enkele aanpassingen gedaan, hier werd bij elk commando de "gm" verwijderd. GM was niet geïnstaleerd en zorgde dan ook voor fouten in het programma. Ook in dit script moeten we het IP adres aanpassen.
 - Photobooth werkt nu zoals het hoort. Enkel nog een RTC-module installeren en een Button.
 - RTC is geinstalleerd en werkt perfect, zonder internet hebben we nu ook de correcte datum en tijd.
 - Connectiviteit van het accespoint is momenteel niet optimaal. We zoeken naar nieuwe mogelijkheden met nmcli.
