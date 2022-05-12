@@ -36,7 +36,7 @@ dit programma is nodig om de foto's te combineren. In de instructie staat er een
 - Accespoint met nmcli is zeer stabiel helaas kan je deze niet instellen op een sd kaartje waar reeds een accespoint op geinstaleerd is. 
 - Accespoint met nmcli hebben we dus op een leeg sd kaartje gezet en de photobooth software van nul terug geïnstaleerd.
 - Nu enkel nog de autostart instellen: 
-- - mkdir .config/autostart   
+- - mkdir .config/autostart (Alle in deze map geplaatste startbestanden (.desktop bestanden) worden automatisch bij het opstarten van de Raspberry Pi uitgevoerd. Het autostart photobooth.desktop bestand maken we aan met nano.   
 - - sudo nano -b photobooth.desktop
 - [Desktop Entry]
 Type=Application
