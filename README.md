@@ -39,5 +39,5 @@ dit programma is nodig om de foto's te combineren. In de instructie staat er een
 - - mkdir .config/autostart (Alle in deze map geplaatste startbestanden (.desktop bestanden) worden automatisch bij het opstarten van de Raspberry Pi uitgevoerd. Het autostart photobooth.desktop bestand maken we aan met nano.   
 - - sudo nano -b photobooth.desktop
 - [Desktop Entry]
-Type=Application
-Exec=/home/pi/pb/startup.sh
+  Type=Application
+  Exec=/home/pi/pb/startup.sh
