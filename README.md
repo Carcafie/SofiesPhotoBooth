@@ -38,4 +38,4 @@ dit programma is nodig om de foto's te combineren. In de instructie staat er een
 - Nu enkel nog de autostart instellen: mkdir .config/autostart    sudo nano -b photobooth.desktop
 - [Desktop Entry]
 Type=Application
-Exec=/home/pi/pb/
+Exec=/home/pi/pb/startup.sh
