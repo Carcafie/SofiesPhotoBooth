@@ -41,3 +41,4 @@ dit programma is nodig om de foto's te combineren. In de instructie staat er een
 - - [Desktop Entry]
   - Type=Application
   - Exec=/home/pi/pb/startup.sh
+- De photobooth is nu klaar alles kan nu opgesteld worden in een mooi afgewerkt kistje en de photobooth kan gebruikt worden.
