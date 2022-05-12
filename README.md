@@ -35,7 +35,9 @@ dit programma is nodig om de foto's te combineren. In de instructie staat er een
 - Connectiviteit van het accespoint is momenteel niet optimaal. We zoeken naar nieuwe mogelijkheden met nmcli.
 - Accespoint met nmcli is zeer stabiel helaas kan je deze niet instellen op een sd kaartje waar reeds een accespoint op geinstaleerd is. 
 - Accespoint met nmcli hebben we dus op een leeg sd kaartje gezet en de photobooth software van nul terug geïnstaleerd.
-- Nu enkel nog de autostart instellen: mkdir .config/autostart    sudo nano -b photobooth.desktop
+- Nu enkel nog de autostart instellen: 
+- - mkdir .config/autostart   
+- - sudo nano -b photobooth.desktop
 - [Desktop Entry]
 Type=Application
 Exec=/home/pi/pb/startup.sh
